@@ -373,6 +373,9 @@ function buildLink(
     children: convertNodes(children, deco, overrides),
     url,
     title,
+    // for mention link test
+    mention:false,
+    character:''
   };
 }
 
